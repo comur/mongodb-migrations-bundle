@@ -10,11 +10,10 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "~2.1",        
-        "antimattr/mongodb-migrations": "~1.0@stable",
+        "symfony/framework-bundle": "~2.1",
+        "doesntmattr/mongodb-migrations": "~1.0@stable",
         "doctrine/mongodb-odm": "1.*"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-0": { "AntiMattr\\Bundle\\MongoDBMigrationsBundle\\": "" }
     },
